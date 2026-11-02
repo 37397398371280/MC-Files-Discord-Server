@@ -1,14 +1,14 @@
 ###################################################################
 # The Ultimate robots.txt Bot and User-Agent Blocker
 # Copyright:
-# https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
+# https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 ###################################################################
 
 ### Version Information #
 ###################################################
-### Version: V3.2026.10.2760
-### Updated: Sat Oct 31 15:33:52 UTC 2026
-### Bad Bot Count: 699
+### Version: V4.2026.11.6232
+### Updated: Mon Nov  2 10:12:08 UTC 2026
+### Bad Bot Count: 700
 ###################################################
 ### Version Information ##
 
@@ -129,9 +129,9 @@ User-agent: Bigfoot
 Disallow:/
 User-agent: Bitacle
 Disallow:/
-User-agent: Black Hole
-Disallow:/
 User-agent: BlackWidow
+Disallow:/
+User-agent: Black Hole
 Disallow:/
 User-agent: Blackboard
 Disallow:/
@@ -168,6 +168,8 @@ Disallow:/
 User-agent: CATExplorador
 Disallow:/
 User-agent: CCBot
+Disallow:/
+User-agent: CMS-Security-Auditor
 Disallow:/
 User-agent: CODE87
 Disallow:/
@@ -459,11 +461,11 @@ User-agent: Intelliseek
 Disallow:/
 User-agent: InterGET
 Disallow:/
-User-agent: Internet Ninja
-Disallow:/
 User-agent: InternetMeasurement
 Disallow:/
 User-agent: InternetSeer
+Disallow:/
+User-agent: Internet Ninja
 Disallow:/
 User-agent: Iria
 Disallow:/
@@ -581,11 +583,11 @@ User-agent: Magnet
 Disallow:/
 User-agent: Mail.RU_Bot
 Disallow:/
-User-agent: Majestic SEO
-Disallow:/
 User-agent: Majestic-SEO
 Disallow:/
 User-agent: Majestic12
+Disallow:/
+User-agent: Majestic SEO
 Disallow:/
 User-agent: MarkMonitor
 Disallow:/
@@ -655,8 +657,6 @@ User-agent: Needle
 Disallow:/
 User-agent: Nessus
 Disallow:/
-User-agent: Net Vampire
-Disallow:/
 User-agent: NetAnts
 Disallow:/
 User-agent: NetLyzer
@@ -666,6 +666,8 @@ Disallow:/
 User-agent: NetSpider
 Disallow:/
 User-agent: NetZIP
+Disallow:/
+User-agent: Net Vampire
 Disallow:/
 User-agent: Netcraft
 Disallow:/
@@ -725,8 +727,6 @@ User-agent: PHPCrawl
 Disallow:/
 User-agent: POE-Component-Client-HTTP
 Disallow:/
-User-agent: Page Analyzer
-Disallow:/
 User-agent: PageAnalyzer
 Disallow:/
 User-agent: PageGrabber
@@ -734,6 +734,8 @@ Disallow:/
 User-agent: PageScorer
 Disallow:/
 User-agent: PageThing.com
+Disallow:/
+User-agent: Page Analyzer
 Disallow:/
 User-agent: Pandalytics
 Disallow:/
@@ -905,8 +907,6 @@ User-agent: Shodan
 Disallow:/
 User-agent: Siphon
 Disallow:/
-User-agent: Site Sucker
-Disallow:/
 User-agent: SiteAuditBot
 Disallow:/
 User-agent: SiteCheckerBotCrawler
@@ -918,6 +918,8 @@ Disallow:/
 User-agent: SiteSnagger
 Disallow:/
 User-agent: SiteSucker
+Disallow:/
+User-agent: Site Sucker
 Disallow:/
 User-agent: Sitebeam
 Disallow:/
@@ -1009,9 +1011,9 @@ User-agent: Telesphoreo
 Disallow:/
 User-agent: Telesphorep
 Disallow:/
-User-agent: The Intraformant
-Disallow:/
 User-agent: TheNomad
+Disallow:/
+User-agent: The Intraformant
 Disallow:/
 User-agent: Thumbor
 Disallow:/
@@ -1047,9 +1049,9 @@ User-agent: Twice
 Disallow:/
 User-agent: Typhoeus
 Disallow:/
-User-agent: URLy Warning
-Disallow:/
 User-agent: URLy.Warning
+Disallow:/
+User-agent: URLy Warning
 Disallow:/
 User-agent: UnisterBot
 Disallow:/
@@ -1103,22 +1105,6 @@ User-agent: WallpapersHD
 Disallow:/
 User-agent: WeSEE
 Disallow:/
-User-agent: Web Auto
-Disallow:/
-User-agent: Web Collage
-Disallow:/
-User-agent: Web Enhancer
-Disallow:/
-User-agent: Web Fetch
-Disallow:/
-User-agent: Web Fuck
-Disallow:/
-User-agent: Web Pix
-Disallow:/
-User-agent: Web Sauger
-Disallow:/
-User-agent: Web Sucker
-Disallow:/
 User-agent: WebAuto
 Disallow:/
 User-agent: WebBandit
@@ -1153,17 +1139,33 @@ User-agent: WebWhacker
 Disallow:/
 User-agent: WebZIP
 Disallow:/
+User-agent: Web Auto
+Disallow:/
+User-agent: Web Collage
+Disallow:/
+User-agent: Web Enhancer
+Disallow:/
+User-agent: Web Fetch
+Disallow:/
+User-agent: Web Fuck
+Disallow:/
+User-agent: Web Pix
+Disallow:/
+User-agent: Web Sauger
+Disallow:/
+User-agent: Web Sucker
+Disallow:/
 User-agent: Webalta
 Disallow:/
 User-agent: WebmasterWorldForumBot
 Disallow:/
 User-agent: Webshag
 Disallow:/
-User-agent: Website Quester
-Disallow:/
 User-agent: WebsiteExtractor
 Disallow:/
 User-agent: WebsiteQuester
+Disallow:/
+User-agent: Website Quester
 Disallow:/
 User-agent: Webster
 Disallow:/
