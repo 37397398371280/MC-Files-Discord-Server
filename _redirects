@@ -1,4 +1,4 @@
 /robots.txt    /robots.txt    200
 /ads.txt       /ads.txt       200
 /              https://discord.gg/xd35qEk2mt    301
-/*             /404.html      404
+/*             /404.html      200
